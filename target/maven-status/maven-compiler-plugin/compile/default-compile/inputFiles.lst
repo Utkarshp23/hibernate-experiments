@@ -1,5 +1,7 @@
-U:\hibernate-learnings\src\main\java\com\learning\hibernate\entity\User.java
-U:\hibernate-learnings\src\main\java\com\learning\hibernate\experiment\DirtyCheckingExperiment3.java
-U:\hibernate-learnings\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment1.java
-U:\hibernate-learnings\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment2.java
-U:\hibernate-learnings\src\main\java\com\learning\hibernate\HibernateLearningsApplication.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\entity\User.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\DetachedEntityExperiment4.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\DirtyCheckingExperiment3.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\MergeExperiment5.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment1.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment2.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\HibernateLearningsApplication.java

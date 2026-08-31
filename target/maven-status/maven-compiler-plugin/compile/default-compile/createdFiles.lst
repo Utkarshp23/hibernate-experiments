@@ -1,3 +1,6 @@
+com\learning\hibernate\experiment\DirtyCheckingExperiment3.class
+com\learning\hibernate\experiment\PersistenceContextExperiment1.class
 com\learning\hibernate\entity\User.class
 com\learning\hibernate\HibernateLearningsApplication.class
-com\learning\hibernate\experiment\PersistenceContextExperiment1.class
+com\learning\hibernate\experiment\PersistenceContextExperiment2.class
+com\learning\hibernate\experiment\DetachedEntityExperiment4.class

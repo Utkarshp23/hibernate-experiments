@@ -1,7 +1,9 @@
 package com.learning.hibernate;
 
 import com.learning.hibernate.entity.User;
+import com.learning.hibernate.experiment.DetachedEntityExperiment4;
 import com.learning.hibernate.experiment.DirtyCheckingExperiment3;
+import com.learning.hibernate.experiment.MergeExperiment5;
 import com.learning.hibernate.experiment.PersistenceContextExperiment1;
 import com.learning.hibernate.experiment.PersistenceContextExperiment2;
 import java.util.TimeZone;
@@ -24,7 +26,9 @@ public class HibernateLearningsApplication {
     @Bean
     CommandLineRunner runExperiments(PersistenceContextExperiment1 experiment1,
                                       PersistenceContextExperiment2 experiment2,
-                                      DirtyCheckingExperiment3 experiment3) {
+                                      DirtyCheckingExperiment3 experiment3,
+                                      DetachedEntityExperiment4 experiment4,
+                                      MergeExperiment5 experiment5) {
         return args -> {
             //experiment1.runExperiment();
 
@@ -32,10 +36,19 @@ public class HibernateLearningsApplication {
             //User user1 = experiment2.runExperiment(knownUserId);
             //experiment2.runSecondPersistenceContextScenario(knownUserId, user1);
 
-            Long dirtyCheckingUserId = experiment3.ensureKnownUser();
-            experiment3.scenarioA(dirtyCheckingUserId);
-            experiment3.scenarioB(dirtyCheckingUserId);
-            experiment3.scenarioC(dirtyCheckingUserId);
+            //Long dirtyCheckingUserId = experiment3.ensureKnownUser();
+            //experiment3.scenarioA(dirtyCheckingUserId);
+            //experiment3.scenarioB(dirtyCheckingUserId);
+            //experiment3.scenarioC(dirtyCheckingUserId);
+
+            //Long detachedUserId = experiment4.ensureKnownUser();
+            //experiment4.scenarioA(detachedUserId);
+            //experiment4.scenarioB(detachedUserId);
+            //experiment4.verifyDatabaseState(detachedUserId, "Changed While Detached");
+
+            Long mergeUserId = experiment5.ensureKnownUser();
+            experiment5.runExperiment(mergeUserId);
+            experiment5.verifyDatabaseState(mergeUserId);
         };
     }
 }
