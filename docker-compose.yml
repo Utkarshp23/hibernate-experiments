@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: hibernate-learnings-postgres
+    environment:
+      POSTGRES_DB: hibernate_learning
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - hibernate-learnings-pgdata:/var/lib/postgresql/data
+
+volumes:
+  hibernate-learnings-pgdata:
