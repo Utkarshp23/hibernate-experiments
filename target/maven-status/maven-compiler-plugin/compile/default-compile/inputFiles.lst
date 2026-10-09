@@ -1,7 +1,15 @@
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\controller\UserController.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\dto\PostDto.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\dto\UserSummaryDto.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\dto\UserWithPostsDto.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\entity\Post.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\entity\User.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\DetachedEntityExperiment4.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\DirtyCheckingExperiment3.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\MergeExperiment5.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\NPlusOneExperiment6.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment1.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\experiment\PersistenceContextExperiment2.java
 E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\HibernateLearningsApplication.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\repository\UserRepository.java
+E:\Reflect\hibernate-experiments\src\main\java\com\learning\hibernate\service\UserService.java
